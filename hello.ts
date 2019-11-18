@@ -1,3 +1,5 @@
+import { Employee } from './employee.js';
+
 console.log('Hello Typescript');
 
 var x;
@@ -15,3 +17,6 @@ z = 'Hello';
 var user: { id: number, name: string, location?: string }; // Location is optional
 
 user = { id: 1, name: 'Anish' }
+
+let emp = new Employee(1, 'Anish', 1000);
+console.log(emp);
